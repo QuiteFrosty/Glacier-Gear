@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "glacier_gear:ice_shard",
+    "glacier_gear:ice_shard",
+    "glacier_gear:ice_shard",
+    "glacier_gear:ice_shard"
+  ],
+  "result": {
+    "id": "glacier_gear:ice_cube",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "minecraft:iron_ingot",
+    "b": "minecraft:stone"
+  },
+  "result": {
+    "id": "glacier_gear:ice_extractor",
+    "count": 1
+  }
+}

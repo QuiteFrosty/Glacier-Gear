@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "minecraft:diamond",
+    "b": "glacier_gear:ice_extractor"
+  },
+  "result": {
+    "id": "glacier_gear:packed_ice_extractor",
+    "count": 1
+  }
+}

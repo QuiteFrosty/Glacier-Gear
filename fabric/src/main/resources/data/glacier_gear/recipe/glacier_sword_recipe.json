@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "glacier_gear:ice_cube",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "glacier_gear:glacier_sword",
+    "count": 1
+  }
+}
