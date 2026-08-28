@@ -1,0 +1,49 @@
+plugins {
+    id 'fabric-loom' version '1.9-SNAPSHOT'
+}
+
+version = mod_version
+group = mod_group_id
+
+base {
+    archivesName = mod_id
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+// Deliberate choice: this source tree is written against Mojang's official method names (the
+// same ones used in the neoforge/ and forge/ ports) instead of Yarn, so the game-logic code -
+// items, the effect, the armor set bonus - is identical across all three loaders. If you'd
+// rather use Yarn (most Fabric tutorials assume it), swap the `mappings` line below for
+// `mappings "net.fabricmc:yarn:${yarn_mappings}:v2"` and expect to re-map every overridden
+// vanilla method name (hurtEnemy, mineBlock, appendHoverText, getEffect, setTicksFrozen, ...).
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${minecraft_version}"
+    mappings loom.officialMojangMappings()
+    modImplementation "net.fabricmc:fabric-loader:${loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_version}"
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+processResources {
+    def replaceProperties = [
+            minecraft_version: minecraft_version,
+            mod_id           : mod_id,
+            mod_name         : mod_name,
+            mod_version      : mod_version,
+            mod_authors      : mod_authors,
+            mod_description  : mod_description,
+            loader_version   : loader_version,
+    ]
+    inputs.properties replaceProperties
+    filesMatching(['fabric.mod.json']) {
+        expand replaceProperties
+    }
+}

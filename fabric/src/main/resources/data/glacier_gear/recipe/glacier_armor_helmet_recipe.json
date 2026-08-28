@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": "glacier_gear:ice_cube"
+  },
+  "result": {
+    "id": "glacier_gear:glacier_armor_helmet",
+    "count": 1
+  }
+}

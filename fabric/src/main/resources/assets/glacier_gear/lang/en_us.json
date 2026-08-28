@@ -1,0 +1,23 @@
+{
+  "item.glacier_gear.ice_shard": "Ice Shard",
+  "item.glacier_gear.ice_cube": "Ice Cube",
+  "item.glacier_gear.glacier_armor_helmet": "Glacier Helmet",
+  "item.glacier_gear.glacier_armor_leggings": "Glacier Leggings",
+  "item.glacier_gear.glacier_armor_boots": "Glacier Boots",
+  "item.glacier_gear.glacier_armor_chestplate": "Glacier Chestplate",
+  "item.glacier_gear.ice_extractor": "Ice Extractor",
+  "item.glacier_gear.glacier_pickaxe": "Glacier Pickaxe",
+  "item.glacier_gear.glacier_axe": "Glacier Axe",
+  "item.glacier_gear.glacier_sword": "Glacier Sword",
+  "item.glacier_gear.glacier_shovel": "Glacier Shovel",
+  "item.glacier_gear.glacier_hoe": "Glacier Hoe",
+  "item_group.glacier_gear.glacier_gear": "Glacier Gear",
+  "item.glacier_gear.packed_ice_extractor": "Packed Ice Extractor",
+
+  "effect.glacier_gear.frostbite": "Frostbite",
+
+  "item.glacier_gear.glacier_weapon.tooltip.frostbite": "Hits stack Frostbite, slowing and eventually freezing the target",
+  "item.glacier_gear.glacier_tool.tooltip.chilling_touch": "Chilling Touch: chance to freeze adjacent water into ice",
+  "item.glacier_gear.glacier_armor.tooltip.frostbite": "Immune to freeze damage",
+  "item.glacier_gear.glacier_armor.tooltip.set_bonus": "Full set: Glacial Pulse triggers automatically below 30% health (30s cooldown)"
+}
