@@ -37,6 +37,26 @@ public class GlacierGearModTabs {
                         tabData.accept((ItemLike) GlacierGearModItems.GLACIER_SHOVEL);
                         tabData.accept((ItemLike) GlacierGearModItems.GLACIER_HOE);
                         tabData.accept((ItemLike) GlacierGearModItems.PACKED_ICE_EXTRACTOR);
+
+                        tabData.accept((ItemLike) GlacierGearModItems.PERMAFROST_SHARD);
+                        tabData.accept((ItemLike) GlacierGearModItems.ICE_FUR);
+                        tabData.accept((ItemLike) GlacierGearModItems.FROST_LINED_LEATHER);
+                        tabData.accept((ItemLike) GlacierGearModItems.PERMAFROST_ARMOR_HELMET);
+                        tabData.accept((ItemLike) GlacierGearModItems.PERMAFROST_ARMOR_CHESTPLATE);
+                        tabData.accept((ItemLike) GlacierGearModItems.PERMAFROST_ARMOR_LEGGINGS);
+                        tabData.accept((ItemLike) GlacierGearModItems.PERMAFROST_ARMOR_BOOTS);
+                        tabData.accept((ItemLike) GlacierGearModItems.PERMAFROST_PICKAXE);
+                        tabData.accept((ItemLike) GlacierGearModItems.PERMAFROST_AXE);
+                        tabData.accept((ItemLike) GlacierGearModItems.PERMAFROST_SWORD);
+                        tabData.accept((ItemLike) GlacierGearModItems.PERMAFROST_SHOVEL);
+                        tabData.accept((ItemLike) GlacierGearModItems.PERMAFROST_HOE);
+
+                        tabData.accept((ItemLike) GlacierGearModBlocks.PERMAFROST_ORE_ITEM);
+                        tabData.accept((ItemLike) GlacierGearModBlocks.PACKED_PERMAFROST_ITEM);
+                        tabData.accept((ItemLike) GlacierGearModBlocks.GLACIAL_CRYSTAL_BLOCK_ITEM);
+
+                        tabData.accept((ItemLike) GlacierGearModEntities.FROST_WRAITH_SPAWN_EGG);
+                        tabData.accept((ItemLike) GlacierGearModEntities.SNOW_HARE_SPAWN_EGG);
                     })
                     .build());
 
@@ -47,6 +67,11 @@ public class GlacierGearModTabs {
             entries.accept((ItemLike) GlacierGearModItems.GLACIER_ARMOR_LEGGINGS);
             entries.accept((ItemLike) GlacierGearModItems.GLACIER_ARMOR_BOOTS);
             entries.accept((ItemLike) GlacierGearModItems.GLACIER_SWORD);
+            entries.accept((ItemLike) GlacierGearModItems.PERMAFROST_ARMOR_HELMET);
+            entries.accept((ItemLike) GlacierGearModItems.PERMAFROST_ARMOR_CHESTPLATE);
+            entries.accept((ItemLike) GlacierGearModItems.PERMAFROST_ARMOR_LEGGINGS);
+            entries.accept((ItemLike) GlacierGearModItems.PERMAFROST_ARMOR_BOOTS);
+            entries.accept((ItemLike) GlacierGearModItems.PERMAFROST_SWORD);
         });
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(entries -> {
             entries.accept((ItemLike) GlacierGearModItems.ICE_EXTRACTOR);
@@ -55,6 +80,10 @@ public class GlacierGearModTabs {
             entries.accept((ItemLike) GlacierGearModItems.GLACIER_SHOVEL);
             entries.accept((ItemLike) GlacierGearModItems.GLACIER_HOE);
             entries.accept((ItemLike) GlacierGearModItems.PACKED_ICE_EXTRACTOR);
+            entries.accept((ItemLike) GlacierGearModItems.PERMAFROST_PICKAXE);
+            entries.accept((ItemLike) GlacierGearModItems.PERMAFROST_AXE);
+            entries.accept((ItemLike) GlacierGearModItems.PERMAFROST_SHOVEL);
+            entries.accept((ItemLike) GlacierGearModItems.PERMAFROST_HOE);
         });
     }
 }

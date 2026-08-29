@@ -1,0 +1,20 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "values": [
+      "minecraft:frozen_peaks",
+      "minecraft:ice_spikes",
+      "minecraft:snowy_plains",
+      "minecraft:frozen_ocean",
+      "minecraft:deep_frozen_ocean"
+    ]
+  },
+  "spawners": [
+    {
+      "type": "glacier_gear:frost_wraith",
+      "weight": 40,
+      "minCount": 1,
+      "maxCount": 2
+    }
+  ]
+}

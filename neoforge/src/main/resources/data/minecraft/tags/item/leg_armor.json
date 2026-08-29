@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "glacier_gear:glacier_armor_leggings"
+    "glacier_gear:glacier_armor_leggings",
+    "glacier_gear:permafrost_armor_leggings"
   ]
 }

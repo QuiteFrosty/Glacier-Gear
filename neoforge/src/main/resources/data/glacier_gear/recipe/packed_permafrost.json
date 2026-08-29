@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "glacier_gear:permafrost_shard"
+  },
+  "result": {
+    "id": "glacier_gear:packed_permafrost",
+    "count": 1
+  }
+}

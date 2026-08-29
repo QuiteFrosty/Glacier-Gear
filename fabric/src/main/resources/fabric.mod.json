@@ -12,7 +12,8 @@
   "license": "Apache-2.0",
   "environment": "*",
   "entrypoints": {
-    "main": ["dev.gigastudios.glaciergear.GlacierGearMod"]
+    "main": ["dev.gigastudios.glaciergear.GlacierGearMod"],
+    "client": ["dev.gigastudios.glaciergear.client.GlacierGearModClient"]
   },
   "depends": {
     "fabricloader": ">=${loader_version}",

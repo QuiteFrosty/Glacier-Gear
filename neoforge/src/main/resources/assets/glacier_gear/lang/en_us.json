@@ -19,5 +19,33 @@
   "item.glacier_gear.glacier_weapon.tooltip.frostbite": "Hits stack Frostbite, slowing and eventually freezing the target",
   "item.glacier_gear.glacier_tool.tooltip.chilling_touch": "Chilling Touch: chance to freeze adjacent water into ice",
   "item.glacier_gear.glacier_armor.tooltip.frostbite": "Immune to freeze damage",
-  "item.glacier_gear.glacier_armor.tooltip.set_bonus": "Full set: Glacial Pulse triggers automatically below 30% health (30s cooldown)"
+  "item.glacier_gear.glacier_armor.tooltip.set_bonus": "Full set: Glacial Pulse triggers automatically below 30% health (30s cooldown)",
+
+  "item.glacier_gear.permafrost_shard": "Permafrost Shard",
+  "item.glacier_gear.ice_fur": "Ice Fur",
+  "item.glacier_gear.frost_lined_leather": "Frost-Lined Leather",
+  "item.glacier_gear.permafrost_armor_helmet": "Permafrost Helmet",
+  "item.glacier_gear.permafrost_armor_chestplate": "Permafrost Chestplate",
+  "item.glacier_gear.permafrost_armor_leggings": "Permafrost Leggings",
+  "item.glacier_gear.permafrost_armor_boots": "Permafrost Boots",
+  "item.glacier_gear.permafrost_pickaxe": "Permafrost Pickaxe",
+  "item.glacier_gear.permafrost_axe": "Permafrost Axe",
+  "item.glacier_gear.permafrost_sword": "Permafrost Sword",
+  "item.glacier_gear.permafrost_shovel": "Permafrost Shovel",
+  "item.glacier_gear.permafrost_hoe": "Permafrost Hoe",
+  "item.glacier_gear.frost_wraith_spawn_egg": "Frost Wraith Spawn Egg",
+  "item.glacier_gear.snow_hare_spawn_egg": "Snow Hare Spawn Egg",
+
+  "block.glacier_gear.permafrost_ore": "Permafrost Ore",
+  "block.glacier_gear.packed_permafrost": "Packed Permafrost",
+  "block.glacier_gear.glacial_crystal_block": "Glacial Crystal Block",
+
+  "entity.glacier_gear.frost_wraith": "Frost Wraith",
+  "entity.glacier_gear.snow_hare": "Snow Hare",
+
+  "item.glacier_gear.permafrost_weapon.tooltip.frostbite": "Hits apply Frostbite starting at stage II",
+  "item.glacier_gear.permafrost_weapon.tooltip.shatter": "Deals bonus damage to frozen-solid targets",
+  "item.glacier_gear.permafrost_tool.tooltip.chilling_touch": "Chilling Touch+: higher freeze chance, upgrades ice to packed ice to blue ice",
+  "item.glacier_gear.permafrost_armor.tooltip.frostbite": "Immune to freeze and fire damage",
+  "item.glacier_gear.permafrost_armor.tooltip.set_bonus": "Full set: stronger Glacial Pulse triggers automatically below 30% health (20s cooldown)"
 }

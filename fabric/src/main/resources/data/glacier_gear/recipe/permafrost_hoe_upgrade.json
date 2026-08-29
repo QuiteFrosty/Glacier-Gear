@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    " b",
+    " a"
+  ],
+  "key": {
+    "a": "glacier_gear:permafrost_shard",
+    "b": "glacier_gear:glacier_hoe"
+  },
+  "result": {
+    "id": "glacier_gear:permafrost_hoe",
+    "count": 1
+  }
+}

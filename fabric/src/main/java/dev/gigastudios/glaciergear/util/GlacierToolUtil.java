@@ -9,6 +9,7 @@ import net.minecraft.world.level.block.Blocks;
 public class GlacierToolUtil {
 
     private static final float CHANCE = 0.15F;
+    private static final float PERMAFROST_CHANCE = 0.30F;
 
     private GlacierToolUtil() {
     }
@@ -22,6 +23,23 @@ public class GlacierToolUtil {
             BlockPos neighbor = minedPos.relative(direction);
             if (level.getBlockState(neighbor).is(Blocks.WATER) && level.getFluidState(neighbor).isSource()) {
                 level.setBlockAndUpdate(neighbor, Blocks.ICE.defaultBlockState());
+            }
+        }
+    }
+
+    /** Permafrost tier "Chilling Touch": higher chance, and also upgrades Ice to Packed Ice, Packed Ice to Blue Ice. */
+    public static void chillingTouchPermafrost(Level level, BlockPos minedPos) {
+        if (!(level instanceof ServerLevel) || level.random.nextFloat() >= PERMAFROST_CHANCE) {
+            return;
+        }
+        for (Direction direction : Direction.values()) {
+            BlockPos neighbor = minedPos.relative(direction);
+            if (level.getBlockState(neighbor).is(Blocks.WATER) && level.getFluidState(neighbor).isSource()) {
+                level.setBlockAndUpdate(neighbor, Blocks.ICE.defaultBlockState());
+            } else if (level.getBlockState(neighbor).is(Blocks.ICE)) {
+                level.setBlockAndUpdate(neighbor, Blocks.PACKED_ICE.defaultBlockState());
+            } else if (level.getBlockState(neighbor).is(Blocks.PACKED_ICE)) {
+                level.setBlockAndUpdate(neighbor, Blocks.BLUE_ICE.defaultBlockState());
             }
         }
     }

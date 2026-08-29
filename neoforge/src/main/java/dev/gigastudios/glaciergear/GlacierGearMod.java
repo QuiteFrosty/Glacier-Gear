@@ -1,7 +1,9 @@
 package dev.gigastudios.glaciergear;
 
 import dev.gigastudios.glaciergear.event.GlacierArmorSetBonus;
+import dev.gigastudios.glaciergear.init.GlacierGearModBlocks;
 import dev.gigastudios.glaciergear.init.GlacierGearModEffects;
+import dev.gigastudios.glaciergear.init.GlacierGearModEntities;
 import dev.gigastudios.glaciergear.init.GlacierGearModItems;
 import dev.gigastudios.glaciergear.init.GlacierGearModTabs;
 import net.neoforged.bus.api.IEventBus;
@@ -17,7 +19,9 @@ public class GlacierGearMod {
     public static final Logger LOGGER = LogManager.getLogger(GlacierGearMod.class);
 
     public GlacierGearMod(IEventBus modEventBus) {
+        GlacierGearModBlocks.REGISTRY.register(modEventBus);
         GlacierGearModItems.REGISTRY.register(modEventBus);
+        GlacierGearModEntities.REGISTRY.register(modEventBus);
         GlacierGearModTabs.REGISTRY.register(modEventBus);
         GlacierGearModEffects.REGISTRY.register(modEventBus);
 

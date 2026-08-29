@@ -24,4 +24,17 @@ public class GlacierCombatUtil {
         target.addEffect(new MobEffectInstance(GlacierGearModEffects.frostbiteHolder(), DURATION_TICKS,
                 Math.min(amplifier, MAX_AMPLIFIER)));
     }
+
+    /** Called on Permafrost weapon hit: same as stackFrostbite(), but skips the weak (0) stage. */
+    public static void stackFrostbitePermafrost(LivingEntity target) {
+        MobEffectInstance current = target.getEffect(GlacierGearModEffects.frostbiteHolder());
+        int amplifier = current != null ? Math.min(current.getAmplifier() + 1, MAX_AMPLIFIER) : 1;
+        target.addEffect(new MobEffectInstance(GlacierGearModEffects.frostbiteHolder(), DURATION_TICKS, amplifier));
+    }
+
+    /** True if the target is at max Frostbite ("frozen solid") - Permafrost weapons deal bonus damage to these. */
+    public static boolean isFrozenSolid(LivingEntity target) {
+        MobEffectInstance current = target.getEffect(GlacierGearModEffects.frostbiteHolder());
+        return current != null && current.getAmplifier() >= MAX_AMPLIFIER;
+    }
 }

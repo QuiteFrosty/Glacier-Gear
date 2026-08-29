@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": "glacier_gear:ice_fur",
+    "b": "minecraft:leather"
+  },
+  "result": {
+    "id": "glacier_gear:frost_lined_leather",
+    "count": 1
+  }
+}

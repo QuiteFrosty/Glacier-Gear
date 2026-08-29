@@ -3,6 +3,7 @@
   "values": [
     "glacier_gear:glacier_pickaxe",
     "glacier_gear:packed_ice_extractor",
-    "glacier_gear:ice_extractor"
+    "glacier_gear:ice_extractor",
+    "glacier_gear:permafrost_pickaxe"
   ]
 }

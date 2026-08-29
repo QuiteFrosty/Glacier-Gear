@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "glacier_gear:glacier_hoe"
+    "glacier_gear:glacier_hoe",
+    "glacier_gear:permafrost_hoe"
   ]
 }

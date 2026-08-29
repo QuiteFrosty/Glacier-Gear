@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "glacier_gear:permafrost_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "glacier_gear:permafrost_armor"
+      }
+    ]
+  }
+}

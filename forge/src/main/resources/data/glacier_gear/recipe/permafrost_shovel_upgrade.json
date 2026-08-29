@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "b",
+    "a"
+  ],
+  "key": {
+    "a": "glacier_gear:permafrost_shard",
+    "b": "glacier_gear:glacier_shovel"
+  },
+  "result": {
+    "id": "glacier_gear:permafrost_shovel",
+    "count": 1
+  }
+}

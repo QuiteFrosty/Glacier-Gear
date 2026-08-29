@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "glacier_gear:glacier_sword"
+    "glacier_gear:glacier_sword",
+    "glacier_gear:permafrost_sword"
   ]
 }

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "glacier_gear:glacier_axe"
+    "glacier_gear:glacier_axe",
+    "glacier_gear:permafrost_axe"
   ]
 }

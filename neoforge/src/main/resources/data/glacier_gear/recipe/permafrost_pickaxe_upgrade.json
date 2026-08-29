@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    " b ",
+    " a "
+  ],
+  "key": {
+    "a": "glacier_gear:permafrost_shard",
+    "b": "glacier_gear:glacier_pickaxe"
+  },
+  "result": {
+    "id": "glacier_gear:permafrost_pickaxe",
+    "count": 1
+  }
+}
